@@ -1,0 +1,8 @@
+prompt = ""
+show = drun
+location = center
+width = 500
+lines = 10
+allow_images = false
+hide_scroll = false
+no_actions = true
