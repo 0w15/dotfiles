@@ -7,5 +7,6 @@ configuration {
   disable-history: false;
   fuzzy: true;
   case-sensitive: false;
+  display-drun: "";
 }
 
