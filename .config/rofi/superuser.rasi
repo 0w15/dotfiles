@@ -1,0 +1,75 @@
+* {
+  font: "FiraCode Nerd Font Mono";
+  spacing: 6;
+  text-color: #ffffff;
+  background-color: transparent;
+}
+
+window {
+  width: 600px;
+  background-color: #252a36cc;   /* Dark background with 80% opacity */
+  border: 2px;
+  border-color: #80e0a7;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+mainbox {
+  children: [inputbar, listview];
+  spacing: 10px;
+}
+
+inputbar {
+  background-color: #252a36;
+  text-color: #80e0a7;
+  padding: 8px 10px;
+  border-radius: 8px;
+  children: [prompt, entry];
+}
+
+prompt {
+  text-color: #80e0a7;
+  padding: 0px 6px;
+}
+
+entry {
+  text-color: #ffffff;
+  placeholder: "Type to search...";
+  expand: true;
+}
+
+listview {
+  columns: 1;
+  lines: 15;
+  background-color: transparent;
+  border: 0;
+  spacing: 8px;
+  fixed-height: true;
+}
+
+element {
+  orientation: horizontal;
+  background-color: transparent;
+  text-color: #ffffff;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+element selected {
+  background-color: #42556344;      /* Semi-transparent highlight */
+  text-color: #80e0a7;
+  border: 0;
+  border-left: 3px;
+  border-color: #80e0a7;
+}
+
+element-text {
+  background-color: inherit;
+  text-color: inherit;
+}
+
+element-icon {
+  size: 1.6em;          // Increase icon size (default is ~1em)
+  padding: 0px 10px 0px 0px;
+  background-color: transparent;
+}

@@ -1,0 +1,11 @@
+@theme "~/.config/rofi/superuser.rasi"
+
+configuration {
+  show-icons: true;
+  modi: "drun,run,window";
+  sidebar-mode: false;
+  disable-history: false;
+  fuzzy: true;
+  case-sensitive: false;
+}
+
