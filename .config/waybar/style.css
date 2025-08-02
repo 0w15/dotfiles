@@ -1,0 +1,55 @@
+* {
+    font-family: FiraCode Nerd Font Mono;
+    font-size: 16px;
+    border: none;
+    border-radius: 0px;
+    padding: 0 6px;
+    margin: 0;
+    color: #ffffff;
+    background: transparent;
+  }
+  
+  window#waybar {
+    background: rgba(37, 42, 54, 0.8); /* #252a36 with 80% opacity */
+  }
+  
+  #workspaces button {
+    padding: 0 10px;
+    color: #ffffff;
+    background: transparent;
+    border-radius: 6px;
+  }
+  
+  #workspaces button.focused {
+    background: #80e0a7;
+    color: #252a36;
+  }
+  
+  #clock,
+  #battery,
+  #pulseaudio,
+  #network,
+  #custom-network,
+  #memory,
+  #cpu,
+  #backlight,
+  #temperature,
+  #tray {
+    background: rgba(37, 42, 54, 0.80); /* same as window background */
+    color: #ffffff;
+    margin: 0 4px;
+    padding: 4px 10px;
+  }
+  
+  #custom-network {
+    background: rgba(37, 42, 54, 0.8);
+    color: #80e0a7;
+    padding: 4px 10px;
+    margin: 0 4px;
+    border-radius: 8px;
+  }
+  
+  #custom-network.disconnected {
+    color: #ff6c6b;
+  }
+  
